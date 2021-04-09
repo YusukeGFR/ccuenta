@@ -17,6 +17,12 @@ public class Ccuenta {
 	public double getSaldo() {
 		return saldo;
 	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+	
 
 	// Para probar Junit
 	public void ingresar(double cantidad) {
